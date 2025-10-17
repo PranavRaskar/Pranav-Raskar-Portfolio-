@@ -1,5 +1,5 @@
 # Pranav Raskar - Data Analyst Portfolio
-
+# Live Website https://pranav-raskar.netlify.app
 A modern, dark-themed portfolio website showcasing data analytics projects, skills, certifications, and achievements. Built with Next.js, Tailwind CSS, and featuring a working contact form powered by Formspree.
 
 ## 🌟 Features
@@ -83,106 +83,6 @@ If messages aren't being received:
 3. Log in to Formspree dashboard to check submission logs
 4. Ensure email notifications are enabled in Formspree settings
 
-## 🔄 Alternative: EmailJS Setup
-
-An alternative EmailJS implementation is provided in `components/ContactFormEmailJS.tsx`.
-
-### To Use EmailJS Instead:
-
-1. Sign up at [EmailJS](https://www.emailjs.com/)
-2. Create an email service (Gmail, Outlook, etc.)
-3. Create an email template with variables: `{{from_name}}`, `{{from_email}}`, `{{message}}`
-4. Get your credentials:
-   - Service ID
-   - Template ID
-   - Public Key
-5. Install EmailJS:
-\`\`\`bash
-npm install @emailjs/browser
-\`\`\`
-6. Update `components/ContactFormEmailJS.tsx` with your credentials
-7. Replace the contact form in `app/page.tsx` with the EmailJS component
-
-## 📝 Customization
-
-### Adding More Projects
-
-In `app/page.tsx`, find the `projects` array and add new projects:
-
-\`\`\`typescript
-{
-  title: "Your Project Title",
-  description: "Project description and key insights",
-  tools: ["Tool1", "Tool2", "Tool3"],
-  link: "https://github.com/YourUsername/project-link",
-  image: "/your-project-image.jpg",
-}
-\`\`\`
-
-### Adding More Certifications
-
-In `app/page.tsx`, find the `certifications` array and add new certifications:
-
-\`\`\`typescript
-{
-  name: "Certification Name",
-  issuer: "Issuing Organization",
-  icon: Award, // Choose from: Code2, BarChart3, Award, Database
-  link: "https://drive.google.com/file/d/YOUR_FILE_ID/view",
-}
-\`\`\`
-
-### Updating Personal Information
-
-Update the following in `app/page.tsx`:
-- Email: `pranavraskar02@gmail.com`
-- Phone: `+91 87678 38326`
-- LinkedIn: `https://linkedin.com/in/pranav-raskar-60337525a`
-- GitHub: `https://github.com/PranavRaskar`
-- Resume link: Google Drive link in the Hero section
-
-## 🌐 Deployment
-
-### Deploy to Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Go to [Vercel](https://vercel.com)
-3. Click "New Project"
-4. Import your GitHub repository
-5. Click "Deploy"
-
-Your portfolio will be live in minutes!
-
-### Deploy to Netlify
-
-1. Push your code to GitHub
-2. Go to [Netlify](https://netlify.com)
-3. Click "Add new site" → "Import an existing project"
-4. Connect your GitHub repository
-5. Build command: `npm run build`
-6. Publish directory: `.next`
-7. Click "Deploy"
-
-### Environment Variables
-
-No environment variables are required for Formspree! The form works out of the box.
-
-## 🎨 Design System
-
-- **Background**: `#0f172a` (slate-950)
-- **Primary Accent**: `#38bdf8` (cyan-400)
-- **Secondary Accent**: `#0ea5e9` (sky-500)
-- **Text**: `#f1f5f9` (slate-100)
-- **Muted Text**: `#94a3b8` (slate-400)
-
-## 📦 Tech Stack
-
-- **Framework**: Next.js 15 (App Router)
-- **Styling**: Tailwind CSS v4
-- **UI Components**: shadcn/ui
-- **Icons**: Lucide React
-- **Form Service**: Formspree
-- **Deployment**: Vercel
 
 ## 📄 License
 
