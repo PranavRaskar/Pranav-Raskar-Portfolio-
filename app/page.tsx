@@ -138,7 +138,7 @@ export default function Portfolio() {
       description:
         "Built Power BI dashboards with Streamlit integration analyzing global travel data, reducing reporting time by 50%.",
       tools: ["Power BI", "Streamlit", "Python"],
-      link: "https://github.com/PranavRaskar", // Replace with your actual project link
+      link: "https://github.com/PranavRaskar/Global-Food-Production-Trends-and-Analysis-A-Comprehensive-Study-from-1961-to-2023-Using-Power-BI", // Replace with your actual project link
       image: "/travel-dashboard-analytics.jpg",
     },
     {
@@ -146,7 +146,7 @@ export default function Portfolio() {
       description:
         "Comprehensive SQL-based analysis of Olympic medal data and athlete performance metrics across multiple years.",
       tools: ["SQL", "PostgreSQL", "Data Analysis"],
-      link: "https://github.com/PranavRaskar", // Replace with your actual project link
+      link: "https://github.com/PranavRaskar/Olympic-SQL-", // Replace with your actual project link
       image: "/olympics-data-visualization.jpg",
     },
     {
@@ -154,14 +154,14 @@ export default function Portfolio() {
       description:
         "Interactive Power BI dashboard tracking trip patterns, peak hours, and revenue KPIs for ride-sharing data.",
       tools: ["Power BI", "DAX", "Data Modeling"],
-      link: "https://github.com/PranavRaskar", // Replace with your actual project link
+      link: "https://pranavraskar.github.io/Uber-Trip-Analysis-Power-Bi/", // Replace with your actual project link
       image: "/uber-trip-dashboard.jpg",
     },
     {
       title: "HR Analytics Dashboard",
       description: "DAX-driven insights dashboard for employee retention analysis and workforce planning.",
       tools: ["Power BI", "DAX", "HR Analytics"],
-      link: "https://github.com/PranavRaskar", // Replace with your actual project link
+      link: "https://github.com/PranavRaskar/HR-Analysis-", // Replace with your actual project link
       image: "/hr-analytics-dashboard.jpg",
     },
     {
