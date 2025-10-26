@@ -365,7 +365,7 @@ export default function Portfolio() {
                 I specialize in creating interactive dashboards that turn raw data into actionable stories.
               </p>
               <p className="text-lg text-slate-300 leading-relaxed">
-                Currently pursuing a B.E. in Computer Engineering at Dr. D.Y. Patil University, Pune, and 
+                Currently pursuing a BTech. in Computer Engineering at Dr. D.Y. Patil University, Pune, and 
                 have gained international exposure through a student mobility program at INTI International University, Malaysia.
               </p>
               <div className="space-y-4">
