@@ -360,27 +360,27 @@ export default function Portfolio() {
             </Card>
             <div className="space-y-6">
               <p className="text-lg text-slate-300 leading-relaxed">
-                I'm a data-driven problem solver with hands-on experience in data visualization, statistical analysis,
-                and business intelligence. I specialize in transforming raw data into compelling stories through
-                interactive dashboards and actionable insights.
+                I’m a data-driven problem solver passionate about transforming complex data into meaningful insights. 
+                With hands-on experience in data visualization, statistical analysis, and business intelligence, 
+                I specialize in creating interactive dashboards that turn raw data into actionable stories.
               </p>
               <p className="text-lg text-slate-300 leading-relaxed">
-                Currently pursuing my B.E. in Computer Engineering at Dr. D.Y. Patil University, Pune, and gaining
-                international exposure through INTI International University, Malaysia.
+                Currently pursuing a B.E. in Computer Engineering at Dr. D.Y. Patil University, Pune, and 
+                have gained international exposure through a student mobility program at INTI International University, Malaysia.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-4 p-4 bg-slate-900/50 rounded-xl border border-cyan-500/20">
                   <GraduationCap className="text-cyan-400 mt-1 flex-shrink-0" size={24} />
                   <div>
                     <h3 className="font-semibold text-cyan-400 mb-1">Dr. D.Y. Patil University</h3>
-                    <p className="text-slate-400 text-sm">B.E. in Computer Engineering (2021–2026)</p>
+                    <p className="text-slate-400 text-sm">BTech. in Computer Engineering (2021–2026)</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-slate-900/50 rounded-xl border border-sky-500/20">
                   <GraduationCap className="text-sky-400 mt-1 flex-shrink-0" size={24} />
                   <div>
                     <h3 className="font-semibold text-sky-400 mb-1">INTI International University, Malaysia</h3>
-                    <p className="text-slate-400 text-sm">Student Mobility Program (Aug 2025–Present)</p>
+                    <p className="text-slate-400 text-sm">Student Mobility Program (Aug 2025– Dec 2025 )</p>
                   </div>
                 </div>
               </div>
@@ -474,7 +474,7 @@ export default function Portfolio() {
                 <div className="flex-1">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                     <h3 className="text-xl font-semibold text-cyan-400">Data Visualization Intern</h3>
-                    <span className="text-sm text-slate-400">Aug 2023 – Present</span>
+                    <span className="text-sm text-slate-400">Aug 2025 – Oct 2025 </span>
                   </div>
                   <p className="text-sky-400 mb-3">Infosys Springboard</p>
                   <ul className="space-y-2 text-slate-300">
@@ -695,7 +695,7 @@ export default function Portfolio() {
                   <div className="p-2 bg-cyan-500/20 rounded-lg">
                     <MapPin className="text-cyan-400" size={20} />
                   </div>
-                  <span>Pune, India | Currently in Malaysia (INTI University)</span>
+                  <span>Pimpri Chinchwad Pune, India </span>
                 </div>
               </div>
               <div className="mt-8">
